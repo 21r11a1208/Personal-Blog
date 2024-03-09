@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="wrapper">
+        <nav class="sticky nav-bar">
+            <a href="#" class="toggle_button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="left">Personal Blog</div>
+            <div class="right">
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#qualifications_main">Qualificatitons</a></li>
+                    <li><a href="#projects_main">Projects</a></li>
+                    <li><a href="#contact_main">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="firstsection">
+            <img src="images/img4.png">
+
+
+        </section>
+        <section class=" secondsection">
+            <div class="hello">Hello</div>
+            <div class="about">I'm B.Anish</div>
+            <div class="content">
+                A B.Tech student in Information Technology. I'm actively seeking opportunities to apply my knowledge and contribute to real-world problems.<br> This website showcases my academic and project experience, along with my career aspirations in the field of engineering.
+            </div>
+        </section>
+
+    </main>
+    <main id="skills_main">
+        <section id="skills">
+            <h1 class="heading">Skills and Tools</h1>
+            <div class="Container">
+
+                <p class="para">Technical Skills</p>
+                <div class="container">
+                    <div class="skills"> HTML,CSS,JS,PHP,C,JAVA </div>
+
+                </div>
+
+                <p class="para">Soft Skills</p>
+                <div class="container">
+                    <div class="skills">Adaptability, Conflict Resolution, Communication, Emotional Intelligence, Interpersonal Skills, Stress Management, Teamwork.</div>
+                </div>
+
+                <p class="para">Tools</p>
+                <div class="container">
+                    <div class="skills">Operating Systems: Windows, Ubuntu.<br>
+                        Version Control Systems: Git</div>
+                </div>
+
+                <p class="para">Tools</p>
+                <div class="container">
+                    <div class="skills">Source Code Editor: VS code<br>
+                        Network Simulation Software: Cisco Packet Tracer</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main id="qualifications_main">
+        <h1 class="heading1">Qualificatitons</h1>
+        <section class="qualifications">
+            <div class="qualification">Educational Qualifications</div>
+            <div class="qualification">
+                <ul>
+                    <li class="education">
+                        <div>BTech Information Technology</div>
+                        <div>GEETHANJALI COLLEGE OF ENGINEERING AND TECHNOLOGY</div>
+                        <div>(2021-2025)</div>
+                    </li>
+
+                    <li class="education">
+                        <div>State Board of Intermediate Education</div>
+                        <div>SRI CHAITANYA JUNIOR COLLEGE </div>
+                        <div>(2019-2021)</div>
+                    </li>
+                    <li class="education">
+                        <div>Secondary School</div>
+                        <div>SR Digi School</div>
+                        <div>(2019)</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <br>
+        <br>
+        <section class="qualifications">
+            <div class="qualification">Experience</div>
+            <div class="qualification">
+                <ul>
+                    <li class="education">
+                        Web Development Internship(01st Aug, 2023 to 15th Sep, 2023) | 1Stop <br>
+                        Utilized HTML, CSS, PHP to develop and maintain user-facing web application.<br>
+                        Gained experience in [Back-end development]. <br>
+                        Implemented best practices for code readability, maintainability, and responsiveness.
+                    </li>
+                        GS MUN (Global Summit - Model United Nation)<br>
+                        Served as a committee staff member for the UN-DI SEC committee. Assisted the Chair in facilitating engaging debates, drafted committee documents, and provided research resources to delegates. Strengthened my research, communication, and critical thinking skills.
+                    
+
+                    <li class="education">
+
+                    </li>
+                    <li class="education">
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <main id="projects_main">
+        <h1 class="heading1">Projects</h1>
+        <section class="projects">
+            <ul>
+                <li>
+                    <div class="project" id="personal_portfolio">Personal Portfolio Project</div>
+                </li>
+                <br>
+                <li>
+                    <div class="project description">My Personal Portfolio Website made using </div>
+                    <div class="project description">HTML, CSS and JavScript.</div>
+                    <button class="button" type="button"><a href="./index.html" target="_blank">Read More</a></button>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    <main id="contact_main">
+        <section class="contact">
+            <h1 class="heading1">Contact Me</h1>
+            <form id="contact-form" onsubmit="sendmail(); reset(); return false;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your name" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your name" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <div id="response"></div>
+        </section>
+    </main>
+    <footer>
+        <div class=" rightfooter">  
+            <ul>
+                <li class="logos"><a href="https://www.linkedin.com" target="_blank"><img
+                            src="images/linkedin.png" alt="as"></a></li>
+                <li class="logos"><a href="https://github.com" target="_blank"><img src="images/social.png"
+                            alt="as"></a></li>
+                <li class="logos"><a href="https://twitter.com" target="_blank"><img src="images/x.png"
+                            alt="as"></a>
+                </li>
+                <li class="logos"><a href="https://www.instagram.com" target="_blank"><img
+                            src="images/instagram.png" alt="as"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "test123@gmail.com",
+                Password: "test@123",
+                To: 'test123@gmail.com',
+                From: document.getElementById('email').value,
+                Subject: "Subject",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+</body>
+
+</html>
